@@ -94,7 +94,7 @@ function pullDownActionStops() {
 	    
 	    	$.ajax({
 			    type: "POST",
-			    url: "http://bus.sammorr.is/application/views/backend/stops-app-1.1.php",
+			    url: "http://bus.sammorr.is/application/views/backend/stops-app-1.01.php",
 			    beforeSend: function() {
 			    	loadingList();
 			    },
@@ -137,7 +137,7 @@ function pullDownActionBus() {
 		
 		$.ajax({
 			type: "POST",
-			url: "http://bus.sammorr.is/application/views/backend/buses-app-1.1.php",
+			url: "http://bus.sammorr.is/application/views/backend/buses-app-1.01.php",
 			// async: false,
 			beforeSend: function() {
 				loadingList(); 
